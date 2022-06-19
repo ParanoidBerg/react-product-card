@@ -1,0 +1,104 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin-top: 3%;
+  width: 450px;
+  height: 590px;
+  background-color: #fbfbfbe7;
+  box-shadow: 7px 5px 5px #bdb9b9;
+}
+.imgCnt {
+  height: 300px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.titleInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+.btnCnt {
+  margin-top: 11%;
+  margin-right: 5%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.line {
+  width: 90%;
+  color: gray;
+}
+.more {
+  border: 1px solid rgb(25, 169, 217);
+  color: rgb(25, 169, 217);
+  background-color: #fbfbfbe7;
+  border-radius: 3px;
+  width: 120px;
+  height: 35px;
+  font-size: medium;
+}
+.about {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+.addBtn {
+  border: 1px solid green;
+  color: white;
+  background-color: green;
+  border-radius: 3px;
+  width: 160px;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.addBtnDis {
+  border: 1px solid lightgreen;
+  color: white;
+  background-color: lightgreen;
+  border-radius: 3px;
+  width: 160px;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.delBtn {
+  border: none;
+  background-color: #fbfbfbe7;
+  color: red;
+  font-size: x-small;
+  margin-left: 6%;
+}
+.detailsS {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 305px;
+  left: 975px;
+  width: 300px;
+  height: 80px;
+  background-color: #fbfbfbe7;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 6px 0px;
+}
+.x {
+  background-color: inherit;
+  border: none;
+  position: relative;
+  bottom: 130px;
+  left: 420px;
+  border-radius: 5px;
+  color: red;
+}
