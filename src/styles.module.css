@@ -84,8 +84,8 @@
 .detailsS {
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
-  top: 305px;
-  left: 975px;
+  top: 42%;
+  left: 63.5%;
   width: 300px;
   height: 80px;
   background-color: #fbfbfbe7;
@@ -96,9 +96,9 @@
 .x {
   background-color: inherit;
   border: none;
-  position: relative;
-  bottom: 130px;
-  left: 420px;
+  position: absolute;
+  bottom: 55%;
+  left: 82.5%;
   border-radius: 5px;
   color: red;
 }

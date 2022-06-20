@@ -60,7 +60,7 @@ function App() {
         </div>
         <div className={styles.cartCnt}>
           <button className={addBtnClass} disabled={isDis} onClick={handleAdd}>
-            {(isDis && "Уже в корзирне") || (!isDis && "Добавит в корзину")}
+            {(isDis && "Уже в корзине") || (!isDis && "Добавит в корзину")}
           </button>
           {isDis && (
             <p>
